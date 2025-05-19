@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 import { assets } from '../assets/assets'
 import PlayerStatsTable from './Playerstats'
 import LatestNews from './LatestNews'
@@ -27,7 +27,7 @@ const Features = () => {
             <h1 className='text-[24px] text-center font-bold' >News Updates</h1>
             <p className='text-gray-500 text-center text-[16px]' >Get the latest news and updates from the world</p>
         </div>
-        <div className='flex gap-2' >
+        <div>
         <PlayerStatsTable />
         <ChatUI />
         </div>
