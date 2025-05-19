@@ -21,8 +21,8 @@ const UserDashboard = () => {
               alt="User avatar"
               className="w-24 h-24 rounded-full object-cover mb-3"
             />
-            <h2 className="text-lg font-semibold">Josh</h2>
-            <p className="text-sm text-gray-500 mb-6">josh.murris@gmail.com</p>
+            <h2 className="text-lg font-semibold">Okoli Divine</h2>
+            <p className="text-sm text-gray-500 mb-6">okolikosi0@gmail.com</p>
           </div>
           <div className="space-y-4">
             {navItems.map((item, index) => (
@@ -40,7 +40,7 @@ const UserDashboard = () => {
         {/* Main content */}
         <main className="md:col-span-3 space-y-6">
           <div className="bg-white rounded-xl shadow p-6">
-            <h3 className="text-xl font-bold mb-4">Welcome back, Josh 👋</h3>
+            <h3 className="text-xl font-bold mb-4">Welcome back, Divine 👋</h3>
             <p className="text-gray-600 text-sm">
               Use the options on the left to customize your dashboard experience. You can edit your profile,
               personalize your feed, and configure your settings.
